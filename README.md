@@ -1,73 +1,118 @@
-# first_vue_app
+# 🏋️‍♂️ Vue Workout Planner App
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern workout planning application built with **Vue 3 + TypeScript**, designed to help users organize, track, and interact with workout routines in a clean and intuitive interface.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Features
 
-## Recommended Browser Setup
+- 🧠 **Dynamic Workout Selection**
+  - Choose and navigate between different workouts easily
+- 📊 **Structured Workout Plans**
+  - Organized exercises with clear progression
+- 🔄 **State Handling (Current)**
+  - Uses **props drilling** for component communication
+- 🧩 **Reusable Components**
+  - Modular and maintainable Vue components
+- ⚡ **Fast & Reactive UI**
+  - Built with Vue 3 Composition API
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Type Support for `.vue` Imports in TS
+## 🛠️ Tech Stack
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- ⚙️ Vue 3 (Composition API)
+- 🔷 TypeScript
+- 🎨 Tailwind CSS (for styling)
+- 📦 Vite (for fast development)
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📁 Project Structure
 
-## Project Setup
+src/
+│
+├── components/ # Reusable UI components
+├── views/ # Page-level components
+├── utils/ # Helper functions & data
+├── assets/ # Static assets
+└── main.ts # App entry point
 
-```sh
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 npm install
-```
 
-### Compile and Hot-Reload for Development
 
-```sh
+
+## 🚀 Running the App
+
 npm run dev
+
+App will be available at:
+
+http://localhost:5173
+
 ```
 
-### Type-Check, Compile and Minify for Production
+## 🧪 Example Usage
 
-```sh
-npm run build
-```
+Select a workout
+Navigate between exercises
+Reset or update your plan dynamically
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## 🔄 State Management (Current vs Future)
 
-```sh
-npm run test:unit
-```
+### Current Approach
 
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
+Using Props Drilling
+Parent components pass data down multiple levels
 
-```sh
-# Install browsers for the first run
-npx playwright install
+### 🟢 Future Improvement
 
-# When testing on CI, must build the project first
-npm run build
+Plan to migrate to Pinia for global state management
 
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
+Benefits:
+Cleaner architecture 🧼
+Easier state sharing 🔗
+Better scalability 📈
 
-### Lint with [ESLint](https://eslint.org/)
+### 📌 Roadmap
 
-```sh
-npm run lint
-```
+🔁 Replace props drilling with Pinia
+
+💾 Persist workout data (local storage or backend)
+
+📱 Improve mobile responsiveness
+
+🎯 Add user customization features
+
+🧪 Add unit & integration tests
+
+### 🤝 Contributing
+
+Contributions are welcome!
+
+Fork the project 🍴
+Create your feature branch 🌱
+Commit your changes 💾
+Push to the branch 🚀
+Open a Pull Request 📬
+
+### 📄 License
+
+This project is licensed under the MIT License.
+
+#### 💡 Author Notes
+
+This project is part of a continuous learning journey in modern frontend development using Vue and TypeScript. Future improvements will focus on scalability and maintainability using proper state management tools.
+
+#### ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
