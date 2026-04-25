@@ -32,11 +32,11 @@ A modern workout planning application built with **Vue 3 + TypeScript**, designe
 
 src/
 │
-├── components/ # Reusable UI components
-├── views/ # Page-level components
-├── utils/ # Helper functions & data
-├── assets/ # Static assets
-└── main.ts # App entry point
+├── components/ Reusable UI components
+├── views/ Page-level components
+├── utils/ Helper functions & data
+├── assets/ Static assets
+└── main.ts App entry point
 
 ---
 
